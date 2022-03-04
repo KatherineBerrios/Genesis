@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;    
+  }
+  
+  .flex-item-left {
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%; 
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+        flex: 50%;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+  #b1, #b2 {
+    font-size: 80%;  
+  }
