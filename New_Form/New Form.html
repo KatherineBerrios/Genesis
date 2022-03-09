@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<!-- Es el mismo formulario del documento "form.html", pero este incluye CSS interno y externo.-->
+<head>	
+<meta charset="UTF-8">
+<title>Login</title>
+<!-- Redefiniendo el estilo de la etiqueta h1 -->
+<style>
+	h1:hover {
+	color: red;
+	}
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 230%;
+	}
+	button:hover {
+		color: white;
+	}
+	</style>
+<!-- La hoja de estilo se encuentra en este mismo repositorio. -->
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1 align="center">Login</h1>
+<hr>
+<br>
+<!-- Los elementos siguientes se ven uno al lado del otro en el navegador -->
+<div class="flex-container">	
+	<div class="flex-item-left" align="center">
+		<!-- Formulario -->
+		<form action="http://127.0.0.1/login_usuario" method="post">
+           
+			<b>Nombre de Usuario:</b>	
+			<br><input type="text" name="nombre_usuario" id="b1"><br><br>
+			<b>Contraseña:</b>	
+			<br><input type="password" name="password" id="b2"><br><br>
+			<button type="submit" align="center" id="b3">Enviar</button>
+
+		</form><br><br>
+	</div>
+	<br>
+	<!-- Gif de gatitos -->
+    <div class="flex-item-right" align="center">
+        <iframe src="https://giphy.com/embed/ule4vhcY1xEKQ" width="500" height="500" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p><a href="https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ"></a></p>
+    </div>
+</div>
+	<br>
+</body>
+</html>
